@@ -4,6 +4,12 @@
 .header__container {
   display: flex;
   align-items: center;
+
+    @media screen and (max-width:767px) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    
+      }
 }
 .header__link {
   display: inline-block;

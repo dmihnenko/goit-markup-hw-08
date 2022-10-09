@@ -22,7 +22,8 @@
   left: 50%;
   padding: 40px;
   width: 100%;
-  max-width: 450px;
+  max-width: 528px;
+  height: 581px;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -32,11 +33,11 @@
 
   background-color: var(--main-white);
 
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 1199px) {
     top: 50%;
 
-    max-width: 528px;
-    height: 581px;
+    max-width: 450px;
+    height: 609px;
   }
 }
 

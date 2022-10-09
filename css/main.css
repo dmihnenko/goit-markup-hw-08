@@ -343,7 +343,8 @@ body {
   left: 50%;
   padding: 40px;
   width: 100%;
-  max-width: 450px;
+  max-width: 528px;
+  height: 581px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -355,11 +356,11 @@ body {
   transition: transform 250ms var(--main-transition), -webkit-transform 250ms var(--main-transition);
   background-color: var(--main-white);
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
   .modal {
     top: 50%;
-    max-width: 528px;
-    height: 581px;
+    max-width: 450px;
+    height: 609px;
   }
 }
 
@@ -544,6 +545,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .header__container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 .header__link {
@@ -762,14 +769,15 @@ body {
   font-size: 26px;
   line-height: 1.62;
   letter-spacing: 0.06em;
-  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   text-transform: uppercase;
   color: var(--main-white);
 }
 @media screen and (min-width: 1200px) {
   .hero__header {
-    font-size: 26px;
-    letter-spacing: 1.15;
+    font-size: 44px;
+    line-height: 1.36;
     max-width: 696px;
   }
 }
@@ -1455,7 +1463,7 @@ body {
 .footer-form__header {
   display: inline-block;
   margin-bottom: 20px;
-  font-size: 1px;
+  font-size: 14px;
   line-height: 1.15;
   text-transform: uppercase;
   color: var(--main-white);
@@ -1510,6 +1518,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer-form__input {
     width: 358px;
+    margin-bottom: 0px;
   }
 }
 

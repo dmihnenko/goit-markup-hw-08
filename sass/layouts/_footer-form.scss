@@ -2,7 +2,7 @@
   display: inline-block;
   margin-bottom: 20px;
 
-  font-size: 1px;
+  font-size: 14px;
   line-height: 1.15;
   text-transform: uppercase;
 
@@ -39,6 +39,7 @@
   }
   @media screen and (min-width: 1200px) {
     width: 358px;
+    margin-bottom: 0px;
   }
 }
 

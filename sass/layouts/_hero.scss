@@ -62,23 +62,23 @@
   display: inline-block;
   margin-bottom: 30px;
   max-width: 360px;
-
-font-family: var(--main-font);
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
   letter-spacing: 0.06em;
 
-  text-align: center;
+margin-right: auto;
+margin-left: auto;
 
   text-transform: uppercase;
 
   color: var(--main-white);
 
   @media screen and (min-width: 1200px) {
-    font-size: 26px;
-    letter-spacing: 1.15;
+    font-size: 44px;
+    line-height: 1.36;
     max-width: 696px;
   }
 }
